@@ -1,6 +1,6 @@
 # ◐ Ensemble
 
-**A multi-model weather forecast app that shows you where weather models agree — and where they don't.**
+**A multi-model weather forecast app that shows you where weather models agree and where they don't.**
 
 Most weather apps show you a single forecast and call it a day. Ensemble takes a different approach: it fetches predictions from **five independent weather models** and displays them side by side, so you can see the full range of what the atmosphere might do.
 
@@ -8,7 +8,7 @@ Most weather apps show you a single forecast and call it a day. Ensemble takes a
 
 ## Why This App Exists
 
-I was tired trying so many weather apps that none of them seemed to predict the weather accurately. This app is trying to close the gap at least by agreggating 5 models and "making an average". Sometimes they wildly disagree and that disagreement *is* the forecast: genuine uncertainty.
+I was tired trying so many weather apps that none of them seemed to predict the weather accurately. This app is trying to close the gap at least, by agreggating 5 models and by "making an average". Sometimes these models wildly disagree and that disagreement *is* the forecast: genuine uncertainty.
 
 Ensemble gives you that information instead of hiding it behind a single number.
 
@@ -38,7 +38,7 @@ Ensemble gives you that information instead of hiding it behind a single number.
 | 🔵 `#3A8FE8` | GFS | NOAA (US National Weather Service) | Widely used, good global coverage |
 | 🟢 `#4ADE80` | ICON | DWD (German Weather Service) | Strong in Europe, high resolution |
 | 🟣 `#C084FC` | ARPEGE | Météo-France | French national model, good for Western Europe |
-| 🟡 `#F59E0B` | UKMO | UK Met Office | **Highlighted with a thicker line** — most relevant for UK locations |
+| 🟡 `#F59E0B` | UKMO | UK Met Office | **Highlighted with a thicker line** : most relevant for UK locations |
 
 ---
 
