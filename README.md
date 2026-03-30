@@ -8,7 +8,7 @@ Most weather apps show you a single forecast and call it a day. Ensemble takes a
 
 ## Why This App Exists
 
-Weather forecasting is not a solved problem. Different models use different physics, different resolutions, and different assumptions about the atmosphere. Sometimes they all agree — and you can trust the forecast. Sometimes they wildly disagree — and that disagreement *is* the forecast: genuine uncertainty.
+I was tired trying so many weather apps that none of them seemed to predict the weather accurately. This app is trying to close the gap at least by agreggating 5 models and "making an average". Sometimes they wildly disagree and that disagreement *is* the forecast: genuine uncertainty.
 
 Ensemble gives you that information instead of hiding it behind a single number.
 
@@ -58,7 +58,7 @@ Shown on the current conditions card. Calculated from the average temperature sp
 |-------|--------|---------|
 | 🟢 **HIGH** | < 1.5°C | Models broadly agree. The forecast is likely reliable. |
 | 🟡 **MODERATE** | 1.5–3°C | Some divergence. The general trend is clear but details may vary. |
-| 🔴 **LOW** | ≥ 3°C | Models significantly disagree. The weather is genuinely uncertain — take any single number with a grain of salt. |
+| 🔴 **LOW** | ≥ 3°C | Models significantly disagree. The weather is genuinely uncertain. Take any single number with a grain of salt. |
 
 ### Time Range Toggle (24h / 3 Days / 7 Days)
 
@@ -112,8 +112,6 @@ This avoids the problem of "Today" showing only 15 minutes of data if you check 
 ### Install and run
 
 ```bash
-git clone https://github.com/yourusername/ensemble-weather.git
-cd ensemble-weather
 npm install
 npm run dev
 ```
@@ -180,12 +178,6 @@ src/
 android/                       — Capacitor Android project + widget
 ios/                           — Capacitor iOS project + WidgetKit extension
 ```
-
----
-
-## Default Location
-
-Harlow, UK (51.7725°N, 0.1082°E). Change it by tapping the location pill in the header.
 
 ---
 
