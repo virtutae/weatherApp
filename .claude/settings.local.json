@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx create-vite@latest . --template react-ts)",
+      "Bash(cp -r tempapp/* tempapp/.* .)",
+      "Bash(rm -rf tempapp)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx cap:*)",
+      "Bash(ls android/gradlew*)",
+      "Bash(./gradlew assembleDebug)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files/Android/Android Studio/**)",
+      "Bash(where java:*)",
+      "Bash(reg query:*)",
+      "Bash(export JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\")",
+      "Bash(ls:*)",
+      "Bash(cp \"C:/Users/virtu/Desktop/developer/weatherApp/android/app/build/outputs/apk/debug/app-debug.apk\" \"C:/Users/virtu/Desktop/ensemble-weather.apk\")",
+      "Read(//c/Users/virtu/Desktop/**)"
+    ]
+  }
+}
